@@ -532,7 +532,7 @@ color: #2b2b2b !important;
 }
 
 .image-height-long {
-  object-fit: cover;
+  /* object-fit: cover; */
   align-items: center;
   }
   
