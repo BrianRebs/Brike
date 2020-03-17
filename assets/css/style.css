@@ -466,6 +466,9 @@ p {
   height: 100%;
   top: 0;
   right: 0; }
+  @media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .services-image {
+      right: -50px; } }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .services-image {
       width: 34%; } }
@@ -480,14 +483,15 @@ p {
       width: 100%;
       padding-left: 15px;
       padding-right: 16px;
-      margin: 0 auto; } }
+      margin: 0 auto; 
+    } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .services-image {
       position: relative;
       width: 540px;
       margin: 0 auto; } }
   .services-image .image {
-    max-width: 580px;
+    max-width: 500px;
     width: 100%; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .services-image .image {
