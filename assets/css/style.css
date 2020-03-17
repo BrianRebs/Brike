@@ -863,9 +863,10 @@ p.form-message.error {
       padding-top: 50px;
       padding-bottom: 80px; } }
 
-.footer-logo-support .footer-logo .social {
-  /* margin-left: 5px;  */
-}
+/* .footer-logo-support .footer-logo .social {
+ margin-left: 5px;  
+} */
+
   .footer-logo-support .footer-logo .social li {
     display: inline-block;
     margin-right: 10px; }
