@@ -231,7 +231,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form">
-                        <form id="contact-form" action="assets/contact.php" method="post" data-toggle="validator">
+                        <form id="contact-form" action="POST" method="post" data-toggle="validator" data-netlify="true">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single-form form-group">
@@ -272,7 +272,10 @@
                                 <div class="col-md-12">
                                     <div class="single-form form-group text-center">
                                         <button type="submit" class="main-btn">Enviar</button>
-                                    </div> <!-- single form -->
+                                    </div>
+                                    <div class="recaptcha" data-netlify-recaptcha="true">
+                                    </div>
+                                     <!-- single form -->
                                 </div>
                             </div> <!-- row -->
                         </form>
